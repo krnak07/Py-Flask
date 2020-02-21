@@ -1,0 +1,104 @@
+.mediaViewInfo {
+	--web-view-name: welcome;
+	--web-view-id: welcome;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: welcome;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#welcome {
+	position: absolute;
+	width: 1920px;
+	height: 975px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: welcome;
+	--web-view-id: welcome;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#welcome_page {
+	position: absolute;
+	width: 900px;
+	height: 600px;
+	left: 510px;
+	top: 136px;
+	overflow: visible;
+}
+#Group_1 {
+	position: absolute;
+	width: 372px;
+	height: 50px;
+	left: 774px;
+	top: 673px;
+	overflow: visible;
+}
+#login_btn {
+	position: absolute;
+	width: 173px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.box2 {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#LOGIN {
+	position: absolute;
+	left: 36px;
+	top: 4px;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(248,248,248,1);
+}
+#Signup_btn {
+	position: absolute;
+	width: 173px;
+	height: 50px;
+	left: 199px;
+	top: 0px;
+	overflow: visible;
+}
+.box1 {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.749));
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#SIGNUP {
+	position: absolute;
+	left: 27px;
+	top: 4px;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(248,248,248,1);
+}

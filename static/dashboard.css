@@ -1,0 +1,79 @@
+.mediaViewInfo {
+	--web-view-name: dashboard;
+	--web-view-id: dashboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: dashboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#dashboard {
+	position: absolute;
+	width: 1920px;
+	height: 975px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: dashboard;
+	--web-view-id: dashboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#welcome_page {
+	position: absolute;
+	width: 900px;
+	height: 600px;
+	left: 510px;
+	top: 125px;
+	overflow: visible;
+}
+#USERAME_ {
+	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.451));
+	position: absolute;
+	left: 759px;
+	top: 689px;
+	overflow: visible;
+	width: 404px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	color: rgba(0,0,0,1);
+}
+#logout_btn {
+	position: absolute;
+	width: 241px;
+	height: 56px;
+	left: 1639px;
+	top: 40px;
+	overflow: visible;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 241px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#LOGOUT {
+	position: absolute;
+	left: 35px;
+	top: 0px;
+	overflow: visible;
+	width: 172px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}

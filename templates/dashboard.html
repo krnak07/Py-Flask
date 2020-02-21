@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dashboard</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="static/dashboard.css"/>
+<script id="applicationScript" type="text/javascript" src="static/dashboard.js"></script>
+</head>
+<body>
+<div id="dashboard">
+	<img id="welcome_page" src="static/welcome_page.png" srcset="static/welcome_page.png 1x, static/welcome_page@2x.png 2x">
+	<div id="USERAME_">
+		<span>{{session.username}} </span>
+	</div>
+	<a href="/logout" id="logout_btn" class="logout_btn">
+		<svg class="Rectangle_3">
+			<rect fill="rgba(255,0,0,1)" id="Rectangle_3" rx="10" ry="10" x="0" y="0" width="241" height="56">
+			</rect>
+		</svg>
+		<div id="LOGOUT">
+			<span>LOGOUT</span>
+		</div>
+	</a>
+</div>
+</body>
+</html>
